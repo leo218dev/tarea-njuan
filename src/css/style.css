@@ -1,0 +1,12 @@
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: 1px solid red;
+    background-image: "../../img/cabecera.jpg";
+}
