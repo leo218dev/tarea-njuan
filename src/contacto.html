@@ -75,22 +75,17 @@
           </div>
         </nav>
       </header>
-      <main class="vh-50 pt-5 ps-3 pe-3 mb-4">
-        <form>
+      <main class="vh-50 pt-5 ps-3 pe-3 pb-5 mb-4 d-flex flex-column align-items-center gap-5">
+        <h3>¡Déjanos tus sugerencias!</h3>
+        <form class="w-50">
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" required>
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <textarea class="form-control" id="comentario" rows="3" placeholder="Escriba aquí su sugerencia" required></textarea>
           </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
       </main>
       <footer class="d-flex justify-content-center bg-body-tertiary pt-3 pb-2 fixed-bottom">
