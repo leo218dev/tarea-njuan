@@ -21,3 +21,7 @@ header {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
 }
+
+main {
+    margin-bottom: 10%;
+}

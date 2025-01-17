@@ -75,9 +75,11 @@
           </div>
         </nav>
       </header>
-      <main class="vh-50 pt-5 ps-3 pe-3 pb-5 mb-4 d-flex flex-column align-items-center gap-5">
+      <main class="vh-50 pt-5 ps-3 pe-3 pb-5 d-flex flex-column align-items-center gap-5">
         <h3>¡Déjanos tus sugerencias!</h3>
-        <form class="w-50">
+        <img class="img-fluid" src="../img/contacto.gif" alt="">
+        <div id="alerta"></div>
+        <form class="w-50" id="formulario">
           <div class="mb-3">
             <label for="email" class="form-label">Correo electrónico</label>
             <input type="email" class="form-control" id="email" required>
@@ -85,7 +87,7 @@
           <div class="mb-3">
             <textarea class="form-control" id="comentario" rows="3" placeholder="Escriba aquí su sugerencia" required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="submit" class="btn btn-secondary">Enviar</button>
         </form>
       </main>
       <footer class="d-flex justify-content-center bg-body-tertiary pt-3 pb-2 fixed-bottom">
