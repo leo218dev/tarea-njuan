@@ -2,7 +2,7 @@
   "name": "lobo-estepario-wiki",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.html",
+  "source": "./src/index.html",
   "scripts": {
     "dev": "parcel --open",
     "build": "parcel build",
@@ -15,7 +15,6 @@
     "buffer": "^6.0.3",
     "parcel": "^2.13.2",
     "parcel-bundler": "^1.12.5",
-    "path-browserify": "^1.0.1",
     "posthtml-include": "^2.0.1"
   },
   "dependencies": {
