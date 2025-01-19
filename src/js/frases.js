@@ -7,7 +7,7 @@ const frases = [
 ]
 
 const mostrarFrase = () => {
-    const frase = frases[Math.round((Math.random() * (frases.length - 1)) + 1)]
+    const frase = frases[Math.round(Math.random() * (frases.length - 1))]
     document.getElementById('frase').innerHTML = frase
 }
 

@@ -12,8 +12,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "buffer": "^6.0.3",
     "parcel": "^2.13.2",
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "path-browserify": "^1.0.1",
+    "posthtml-include": "^2.0.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",

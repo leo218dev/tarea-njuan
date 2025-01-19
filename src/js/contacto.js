@@ -1,17 +1,20 @@
 const enviar = document.querySelector('#formulario')
 
+/* const mostrarAlerta = (mensaje, tipo) => {
+    const wrapper = document.createElement('div')
+    wrapper.innerHTML = [
+      `<div class="alert alert-${tipo} alert-dismissible" role="alert">`,
+      `   <div>${mensaje}</div>`,
+      '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+      '</div>'
+    ].join('')
+
+    const contenedor = document.querySelector('#alerta')
+    contenedor.appendChild(wrapper)
+} */
+
 enviar.addEventListener('submit', (e) => {
-    
     e.preventDefault()
-    const email = document.querySelector('#email').value
-    const comentario = document.querySelector('#comentario').value
-    let alerta = document.querySelector('#alerta')
-
-    if (email == '' || comentario == '') {
-        
-        alerta.innerHTML = '<div class="alert alert-danger" role="alert">¡Todos los campos son obligatorios!</div>'
-        return
-    }
-
-    alerta.innerHTML = '<div class="alert alert-success" role="alert">¡Gracias por tu mensaje!</div>'
+    console.log('Enviando formulario...')
+    document.getElementById('alert').style.display = 'block';
 })

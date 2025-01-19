@@ -31,59 +31,7 @@
       </ul>
     </div>
     <div class="container bg-secondary bg-opacity-25">
-      <header class="d-flex flex-column justify-content-center">
-        <div class="d-flex flex-column align-items-center mt-3">
-          <h1 class="titulo text-primary">LOBO ESTEPARIO</h1>
-          <h3 class="text-secondary">Wiki</h3>
-        </div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary mt-3">
-          <div class="container-fluid">
-            <div
-              class="collapse navbar-collapse d-flex justify-content-center"
-              id="navbarNav"
-            >
-              <ul class="navbar-nav w-100 d-flex justify-content-around">
-                <li class="nav-item">
-                  <a
-                    class="nav-link d-flex flex-column align-items-center"
-                    aria-current="page"
-                    href="index.html"
-                    ><i class="fa-solid fa-house"></i>Inicio</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active d-flex flex-column align-items-center"
-                    href="biografia.html"
-                    ><i class="fa-solid fa-book"></i>Biografía</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link d-flex flex-column align-items-center"
-                    href="legado.html"
-                    ><i class="fa-solid fa-star"></i>Legado</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link d-flex flex-column align-items-center"
-                    href="galeria.html"
-                    ><i class="fa-solid fa-photo-film"></i>Galería</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link d-flex flex-column align-items-center"
-                    href="contacto.html"
-                    ><i class="fa-solid fa-user"></i>Contacto</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <include src="./components/header.html"></include>
       <main class="vh-50 pt-5 ps-3 pe-3 pb-5">
         <iframe
           src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1rtb-eDrJ3fWJ9P4UJsaCpoOADWAdkAED4VG32akuLXI&font=Lustria-Lato&lang=es&initial_zoom=0&height=900"
@@ -95,9 +43,7 @@
           frameborder="0"
         ></iframe>
       </main>
-      <footer class="d-flex justify-content-center bg-body-tertiary pt-3 pb-2 fixed-bottom">
-        <p>Leoncio Escámez Espín 2025 | &copy; Todos los derechos reservados</p>
-      </footer>
+      <include src="./components/footer.html"></include>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="js/main.js"></script>
